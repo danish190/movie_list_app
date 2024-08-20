@@ -16,6 +16,7 @@ class MovieController extends GetxController{
     // Initialize Hive and load movies
     movieBox = Hive.box<Movie>('movies');
     loadMovies();
+    
   }
 
   void loadMovies() {
